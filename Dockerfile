@@ -3,6 +3,7 @@ MAINTAINER Juan Jose Scarafia <jjs@adhoc.com.ar>
 
 USER root
 
+
 # Generate locale (es_AR for right odoo es_AR language config, and C.UTF-8 for postgres and general locale data)
 ENV DEBIAN_FRONTEND noninteractive
 RUN  apt-get update -qq && apt-get install -y locales -qq
