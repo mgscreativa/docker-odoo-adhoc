@@ -1,5 +1,5 @@
 [Unit]
-Description=odoo 8.0
+Description=odoo 9.0
 After=docker.service
 Requires=docker.service
 
